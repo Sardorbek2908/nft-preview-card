@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(../fonts/statik/Outfit-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Outfit3";
+    src: url(../fonts/statik/Outfit-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Outfit4";
+    src: url(../fonts/statik/Outfit-Regular.ttf);
+    font-weight: 400;
+}
