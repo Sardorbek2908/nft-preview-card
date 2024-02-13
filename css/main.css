@@ -44,16 +44,18 @@ body {
     box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
 }
 
-.site-imga {
+.site-img {
     width: 302px;
     height: 302px;
     border-radius: 8px;
 }
 
 .site-img:active {
+    width: 302px;
+    height: 302px;
     border-radius: 8px;
     opacity: 0.503;
-    background: url(../img/Eye.png) no-repeat center center var(--Cyan) ;
+    background-color: var(--Cyan);
     cursor: pointer;
 }
 
