@@ -43,19 +43,24 @@ body {
     background: var(--very-darkblue);
     box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
 }
+.image {
+    width: 302px;
+    height: 302px;
+    background-color: var(--Cyan);
+    border-radius: 8px;
+}
 
 .site-img {
     width: 302px;
     height: 302px;
     border-radius: 8px;
+    position: absolute;
+
 }
 
 .site-img:active {
-    width: 302px;
-    height: 302px;
-    border-radius: 8px;
+    background: url(../img/Eye.png) no-repeat center center;
     opacity: 0.503;
-    background-color: var(--Cyan);
     cursor: pointer;
 }
 
@@ -94,11 +99,6 @@ body {
 }
 
 .box {
-    display: flex;
-    column-gap: 6px;
-}
-
-.box1 {
     display: flex;
     column-gap: 6px;
 }
