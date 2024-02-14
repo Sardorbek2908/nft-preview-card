@@ -59,7 +59,6 @@ body {
 }
 
 .site-img:active {
-    background: url(../img/Eye.png) no-repeat center center;
     opacity: 0.503;
     cursor: pointer;
 }
