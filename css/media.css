@@ -1,0 +1,158 @@
+@import url(./fonts.css);
+
+:root {
+    --dark-blue: #0D192C;
+    --very-darkblue: #15263F;
+    --Soft-Blue: #8BACD9;
+    --Cyan: #00FFF8;
+    --White: #FFF;
+    --Outfit: "Outfit";
+    --Outfit3: "Outfit3";
+    --Outfit4: "Outfit4";
+    --very-dark-blue-line: #2E405A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue);
+}
+
+.card {
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    padding: 24px;
+    background: var(--very-darkblue);
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+}
+.image {
+    width: 302px;
+    height: 302px;
+    background-color: var(--Cyan);
+    border-radius: 8px;
+}
+
+.site-img {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    position: absolute;
+
+}
+
+.site-img:active {
+    opacity: 0.503;
+    cursor: pointer;
+}
+
+.site-title {
+    max-width: 302px;
+    width: 100%;
+    color: var(--White, #FFF);
+    font-family: var(--Outfit);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.site-title:active {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.site-text {
+    max-width: 302px;
+    width: 100%;
+    color: var(--Soft-Blue);
+    font-family: "Outfit3";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.site-item {
+    width: 301px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.box {
+    display: flex;
+    column-gap: 6px;
+}
+
+.site-number {
+    color: var(--Cyan);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.site-date {
+    color: var(--Soft-Blue);
+    font-family: "Outfit4";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.boder {
+    margin-top: 24px;
+    width: 302px;
+    height: 1px;
+    background: var(--very-dark-blue-line);
+}
+
+.site-info {
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.site-Creation {
+    color: var(--Soft-Blue);
+    font-family: "Outfit4";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.site-Jules {
+    color: var(--White);
+    font-family: "Outfit4";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.site-Jules:active {
+    color: var(--Cyan);
+    cursor: pointer;
+}
